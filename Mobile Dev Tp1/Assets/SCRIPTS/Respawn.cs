@@ -44,7 +44,7 @@ public class Respawn : MonoBehaviour
 		
 		if(IgnorandoColision)
 		{
-			Tempo += T.GetDT();
+			Tempo += Ti.GetDT();
 			if(Tempo > TiempDeNoColision)
 			{
 				IgnorarColision(false);

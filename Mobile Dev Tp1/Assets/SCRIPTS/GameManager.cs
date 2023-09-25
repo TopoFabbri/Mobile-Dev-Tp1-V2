@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-    public static GameManager Instancia;
 
     public float TiempoDeJuego = 60;
 
@@ -38,9 +37,37 @@ public class GameManager : MonoBehaviour {
     public GameObject[] ObjsCarrera;
 
     //--------------------------------------------------------//
+    private static GameManager instance;
 
-    void Awake() {
-        GameManager.Instancia = this;
+    public static GameManager Instance
+    {
+        get
+        {
+            if (instance != null) return instance;
+
+            instance = FindObjectOfType<GameManager>();
+
+            if (instance != null) return instance;
+
+            var singletonObject = new GameObject();
+            instance = singletonObject.AddComponent<GameManager>();
+            singletonObject.name = typeof(GameManager) + " (Singleton)";
+
+            DontDestroyOnLoad(singletonObject);
+            return instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+            DestroyImmediate(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        if (instance == this)
+            instance = null;
     }
 
     IEnumerator Start() {
@@ -85,7 +112,7 @@ public class GameManager : MonoBehaviour {
                 }
 
                 if (ConteoRedresivo) {
-                    ConteoParaInicion -= T.GetDT();
+                    ConteoParaInicion -= Ti.GetDT();
                     if (ConteoParaInicion < 0) {
                         EmpezarCarrera();
                         ConteoRedresivo = false;
@@ -93,7 +120,7 @@ public class GameManager : MonoBehaviour {
                 }
                 else {
                     //baja el tiempo del juego
-                    TiempoDeJuego -= T.GetDT();
+                    TiempoDeJuego -= Ti.GetDT();
                 }
                 if (ConteoRedresivo) {
                     if (ConteoParaInicion > 1) {
@@ -184,28 +211,6 @@ public class GameManager : MonoBehaviour {
         Player1.ContrDesc.FinDelJuego();
         Player2.ContrDesc.FinDelJuego();
     }
-
-    //se encarga de posicionar la camara derecha para el jugador que esta a la derecha y viseversa
-    //void SetPosicion(PlayerInfo pjInf) {
-    //    pjInf.PJ.GetComponent<Visualizacion>().SetLado(pjInf.LadoAct);
-    //    //en este momento, solo la primera vez, deberia setear la otra camara asi no se superponen
-    //    pjInf.PJ.ContrCalib.IniciarTesteo();
-    //
-    //
-    //    if (pjInf.PJ == Player1) {
-    //        if (pjInf.LadoAct == Visualizacion.Lado.Izq)
-    //            Player2.GetComponent<Visualizacion>().SetLado(Visualizacion.Lado.Der);
-    //        else
-    //            Player2.GetComponent<Visualizacion>().SetLado(Visualizacion.Lado.Izq);
-    //    }
-    //    else {
-    //        if (pjInf.LadoAct == Visualizacion.Lado.Izq)
-    //            Player1.GetComponent<Visualizacion>().SetLado(Visualizacion.Lado.Der);
-    //        else
-    //            Player1.GetComponent<Visualizacion>().SetLado(Visualizacion.Lado.Izq);
-    //    }
-    //
-    //}
 
     //cambia a modo de carrera
     void CambiarACarrera() {

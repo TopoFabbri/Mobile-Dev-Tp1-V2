@@ -26,7 +26,7 @@ public class Frenado : MonoBehaviour
 	{
 		if(Frenando)
 		{
-			Tempo += T.GetFDT();
+			Tempo += Ti.GetFDT();
 			if(Tempo >= (TiempFrenado / CantMensajes) * Contador)
 			{
 				Contador++;

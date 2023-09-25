@@ -39,7 +39,7 @@ public class ContrCalibracion : MonoBehaviour
 		{
 			if(Tempo2 < TiempEspCalib)
 			{
-				Tempo2 += T.GetDT();
+				Tempo2 += Ti.GetDT();
 				if(Tempo2 > TiempEspCalib)
 				{
 					 SetActivComp(true);
@@ -61,7 +61,7 @@ public class ContrCalibracion : MonoBehaviour
 	{
 		EstAct = Estados.Finalizado;
         palletsMover.enabled = false;
-        GameManager.Instancia.FinCalibracion(Pj.IdPlayer);
+        GameManager.Instance.FinCalibracion(Pj.IdPlayer);
 	}
 	
 	void SetActivComp(bool estado)

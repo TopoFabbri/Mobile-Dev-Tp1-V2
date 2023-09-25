@@ -9,7 +9,7 @@ public class CollContraObst : MonoBehaviour
 	float Tempo2 = 0;
 	
 	enum Colisiones {ConTodo, EspDesact, SinObst}
-	Colisiones Colisiono = CollContraObst.Colisiones.ConTodo;
+	Colisiones Colisiono = Colisiones.ConTodo;
 
 	// Use this for initialization
 	void Start () 
@@ -26,7 +26,7 @@ public class CollContraObst : MonoBehaviour
 			break;
 			
 		case Colisiones.EspDesact:
-			Tempo1 += T.GetDT();
+			Tempo1 += Ti.GetDT();
 			if(Tempo1 >= TiempEsp)
 			{
 				Tempo1 = 0;
@@ -35,7 +35,7 @@ public class CollContraObst : MonoBehaviour
 			break;
 			
 		case Colisiones.SinObst:
-			Tempo2 += T.GetDT();
+			Tempo2 += Ti.GetDT();
 			if(Tempo2 >= TiempNoColl)
 			{
 				Tempo2 = 0;
