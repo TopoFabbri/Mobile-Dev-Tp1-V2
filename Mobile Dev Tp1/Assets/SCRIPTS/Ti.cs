@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public static class T 
+public static class T
 {
 	static float FDT;
 	static float DT;
