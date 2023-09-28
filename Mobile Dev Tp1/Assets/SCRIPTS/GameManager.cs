@@ -94,11 +94,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-            //REINICIAR
-            if (Input.GetKey(KeyCode.Alpha0))
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
+        //REINICIAR
+        if (Input.GetKey(KeyCode.Alpha0))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
 
         //CIERRA LA APLICACION
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -110,16 +110,16 @@ public class GameManager : MonoBehaviour
         {
             case EstadoJuego.Calibrando:
 
-                if (Input.GetKeyDown(KeyCode.W))
+                if (InputManager.Instance.GetAxis("Vertical1") > 0)
                 {
                     Player1.Seleccionado = true;
                 }
 
-                if (Input.GetKeyDown(KeyCode.UpArrow))
+                if (InputManager.Instance.GetAxis("Vertical2") > 0)
                 {
                     Player2.Seleccionado = true;
                 }
-                
+
                 CheckCalibracion();
                 break;
 
@@ -182,6 +182,8 @@ public class GameManager : MonoBehaviour
         }
 
         TiempoDeJuegoText.transform.parent.gameObject.SetActive(EstAct == EstadoJuego.Jugando && !ConteoRedresivo);
+        
+        InputManager.Instance.SetAxis("Start", Input.GetAxis("Horizontal"));
     }
 
     //----------------------------------------------------------//
@@ -257,21 +259,21 @@ public class GameManager : MonoBehaviour
     void CambiarACarrera()
     {
         EstAct = GameManager.EstadoJuego.Jugando;
-        
+
         tutoUI.SetActive(false);
-        
+
         if (!multiPlayer)
         {
             var camPlayer1Rect = camPlayers[0].rect;
             var camPlayer2Rect = camPlayers[1].rect;
-            
+
             camPlayer1Rect.width = 1f;
             camPlayer2Rect.width = 0f;
             camPlayers[0].rect = camPlayer1Rect;
             camPlayers[1].rect = camPlayer2Rect;
             Camiones[1].SetActive(false);
         }
-        
+
         for (int i = 0; i < ObjsCarrera.Length; i++)
         {
             ObjsCarrera[i].SetActive(true);
@@ -342,7 +344,7 @@ public class GameManager : MonoBehaviour
 
     private void CheckCalibracion()
     {
-        if (Player1.FinTuto && Input.GetAxis("Start") > 0)
+        if (Player1.FinTuto && InputManager.Instance.GetAxis("Start") > 0)
         {
             multiPlayer = Player2.FinTuto;
             CambiarACarrera();

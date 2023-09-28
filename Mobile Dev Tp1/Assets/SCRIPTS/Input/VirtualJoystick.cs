@@ -1,26 +1,24 @@
-using System;
 using UnityEngine;
 
 
 public class VirtualJoystick : MonoBehaviour
 {
-    [SerializeField] private GameObject handle;
-    [SerializeField] private float sensitivity = 1f;
-    [SerializeField] private RectTransform rec;
-    [SerializeField] private float maxLength = 3f;
+    [SerializeField] protected GameObject handle;
+    [SerializeField] protected RectTransform rec;
+    [SerializeField] protected float maxLength = 100f;
 
     private int touchId = -1;
 
-    public float X => handle.transform.position.x * sensitivity;
-    public float Y => handle.transform.position.y * sensitivity;
+    public float X => handle.transform.localPosition.normalized.x;
+    public float Y => handle.transform.localPosition.normalized.y;
 
-    private void Awake()
+    protected void Awake()
     {
-        if (Application.isMobilePlatform)
+        if (!(Application.isMobilePlatform || Application.isEditor))
             Destroy(gameObject);
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         var touched = false;
 
@@ -37,7 +35,7 @@ public class VirtualJoystick : MonoBehaviour
             ResetHandle();
     }
 
-    private bool CheckTouch(Touch touch)
+    protected bool CheckTouch(Touch touch)
     {
         var rect = rec.rect;
         rect.position += (Vector2)rec.position;
@@ -52,7 +50,7 @@ public class VirtualJoystick : MonoBehaviour
         return touch.fingerId == touchId;
     }
 
-    private void SetHandle(Touch touch)
+    protected void SetHandle(Touch touch)
     {
         var position = touch.position;
         handle.transform.position = position;
@@ -60,7 +58,7 @@ public class VirtualJoystick : MonoBehaviour
         handle.transform.localPosition = Vector3.ClampMagnitude(handle.transform.localPosition, maxLength);
     }
 
-    private void ResetHandle()
+    protected void ResetHandle()
     {
         handle.transform.localPosition = Vector3.zero;
     }

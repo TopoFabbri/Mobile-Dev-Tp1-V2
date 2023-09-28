@@ -85821,11 +85821,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 589413398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 146e0ae3f9fafda4c86617a1c0aaadd1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2831eee31c6f4aa44a83428498631e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   handle: {fileID: 39720199}
-  sensitivity: 1
   rec: {fileID: 589413399}
   maxLength: 100
 --- !u!1 &611983551
@@ -86676,7 +86675,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1642, y: -980}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345076269
 MonoBehaviour:
@@ -86690,7 +86689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7098f0c921d5144cb564efdc424c22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startText: {fileID: 1507143158}
+  startText: {fileID: 1507143160}
   player1: {fileID: 13058}
 --- !u!1 &1425887806 stripped
 GameObject:
@@ -86756,6 +86755,7 @@ GameObject:
   - component: {fileID: 1507143159}
   - component: {fileID: 1507143161}
   - component: {fileID: 1507143160}
+  - component: {fileID: 1507143162}
   m_Layer: 5
   m_Name: Step 1
   m_TagString: Untagged
@@ -86778,10 +86778,10 @@ RectTransform:
   m_Father: {fileID: 1345076268}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.23753761, y: 0.012}
-  m_AnchorMax: {x: 0.7646673, y: 0.15070038}
-  m_AnchoredPosition: {x: -9, y: 8}
-  m_SizeDelta: {x: 430.28192, y: 128.80986}
+  m_AnchorMin: {x: 0.33947915, y: 0.4122593}
+  m_AnchorMax: {x: 0.66200006, y: 0.56574076}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507143160
 MonoBehaviour:
@@ -86825,6 +86825,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507143158}
   m_CullTransparentMesh: 1
+--- !u!114 &1507143162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507143158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1507143160}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1345076269}
+        m_TargetAssemblyTypeName: TutorialUI, Assembly-CSharp
+        m_MethodName: StartPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1568178463
 GameObject:
   m_ObjectHideFlags: 0
@@ -86962,11 +87018,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2121975532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 146e0ae3f9fafda4c86617a1c0aaadd1, type: 3}
+  m_Script: {fileID: 11500000, guid: ebe6a7d7b28fd3d4f869038a4232ed55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   handle: {fileID: 827433700}
-  sensitivity: 1
   rec: {fileID: 2121975533}
   maxLength: 100
 --- !u!1001 &5347541341002542960
