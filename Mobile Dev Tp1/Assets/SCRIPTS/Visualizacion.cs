@@ -270,4 +270,18 @@ public class Visualizacion : MonoBehaviour
 		
 		return res;
 	}
+
+	private void OnEnable()
+	{
+		CamConduccion.GetComponent<CarCamera>().enabled = true;
+		uiRoot.SetActive(true);
+	}
+	
+	private void OnDisable()
+	{
+		CamConduccion.GetComponent<CarCamera>().enabled = false;
+		
+		if (uiRoot)
+			uiRoot.SetActive(false);
+	}
 }
