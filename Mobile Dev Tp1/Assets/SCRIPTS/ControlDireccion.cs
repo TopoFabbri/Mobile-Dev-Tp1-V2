@@ -19,37 +19,12 @@ public class ControlDireccion : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
-		switch(InputAct)
-		{
-            case TipoInput.AWSD:
-                if (Habilitado) {
-                    if (Input.GetKey(KeyCode.A)) {
-						Giro = -1;
-                    }
-                    else if (Input.GetKey(KeyCode.D)) {
-						Giro = 1;
-                    }
-                    else {
-						Giro = 0;
-					}
-                }
-                break;
-            case TipoInput.Arrows:
-                if (Habilitado) {
-                    if (Input.GetKey(KeyCode.LeftArrow)) {
-						Giro = -1;
-					}
-                    else if (Input.GetKey(KeyCode.RightArrow)) {
-						Giro = 1;
-					}
-                    else {
-						Giro = 0;
-					}
-                }
-                break;
-        }
+		if (InputAct == TipoInput.AWSD)
+			Giro = InputManager.Instance.GetAxis("Giro1");
+		else
+			Giro = InputManager.Instance.GetAxis("Giro2");
 
 		carController.SetGiro(Giro);
 	}

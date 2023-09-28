@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using UnityEngine.Serialization;
 
 public class GameManager : MonoBehaviour
 {
@@ -77,6 +76,8 @@ public class GameManager : MonoBehaviour
     {
         if (instance != null && instance != this)
             DestroyImmediate(gameObject);
+        else
+            instance = this;
     }
 
     private void OnDestroy()
