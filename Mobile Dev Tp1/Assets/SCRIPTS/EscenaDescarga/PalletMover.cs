@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PalletMover : ManejoPallets {
 
@@ -13,7 +11,23 @@ public class PalletMover : ManejoPallets {
     public ManejoPallets Desde, Hasta;
     bool segundoCompleto = false;
 
-    private void Update() {
+    void KeyboardInput()
+    {
+        if (Input.GetAxis("Horizontal1") != 0 && InputManager.Instance.GetAxis("Giro1") == 0)
+            InputManager.Instance.SetAxis("Giro1", Input.GetAxis("Horizontal1"));
+        if (Input.GetAxis("Vertical1") != 0 && InputManager.Instance.GetAxis("Vertical1") == 0)
+            InputManager.Instance.SetAxis("Vertical1", Input.GetAxis("Vertical1"));
+
+        if (Input.GetAxis("Horizontal2") != 0 && InputManager.Instance.GetAxis("Giro2") == 0)
+            InputManager.Instance.SetAxis("Giro2", Input.GetAxis("Horizontal2"));
+        if (Input.GetAxis("Vertical2") != 0 && InputManager.Instance.GetAxis("Vertical2") == 0)
+            InputManager.Instance.SetAxis("Vertical2", Input.GetAxis("Vertical2"));
+    }
+    
+    private void Update()
+    {
+        KeyboardInput();
+        
         switch (miInput) {
             case MoveType.WASD:
                 if (!Tenencia() && Desde.Tenencia() && InputManager.Instance.GetAxis("Giro1") < .8f)

@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     //la pista de carreras
     public GameObject[] ObjsCarrera;
-
+    
     //--------------------------------------------------------//
     private static GameManager instance;
 
@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
             DestroyImmediate(gameObject);
         else
             instance = this;
-        
+
         if (!GameSettings.MultiPlayer)
         {
             var camPlayer1Rect = camPlayers[0].rect;
@@ -91,14 +91,14 @@ public class GameManager : MonoBehaviour
             camPlayer2DescRect.width = 0f;
             camPlayer1TutoRect.width = 1f;
             camPlayer2TutoRect.width = 0f;
-            
+
             camPlayers[0].rect = camPlayer1Rect;
             camPlayers[1].rect = camPlayer2Rect;
             camPlayers[2].rect = camPlayer1DescRect;
             camPlayers[3].rect = camPlayer2DescRect;
             camPlayers[4].rect = camPlayer1TutoRect;
             camPlayers[5].rect = camPlayer2TutoRect;
-            
+
             Camiones[1].SetActive(false);
         }
     }
@@ -117,6 +117,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        KeyBoardInput.UpdateInput();
+        
         //REINICIAR
         if (Input.GetKey(KeyCode.Alpha0))
         {
