@@ -87,13 +87,17 @@ public class Player : MonoBehaviour
 	public void CambiarATutorial()
 	{
 		EstAct = Player.Estados.EnTutorial;
-		MiVisualizacion.CambiarATutorial();
+		
+		if (MiVisualizacion)
+			MiVisualizacion.CambiarATutorial();
 	}
 	
 	public void CambiarAConduccion()
 	{
 		EstAct = Player.Estados.EnConduccion;
-		MiVisualizacion.CambiarAConduccion();
+	
+		if (MiVisualizacion)
+			MiVisualizacion.CambiarAConduccion();
 	}
 	
 	public void CambiarADescarga()
