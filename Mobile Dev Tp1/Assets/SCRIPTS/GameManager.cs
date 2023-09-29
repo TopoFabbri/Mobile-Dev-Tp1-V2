@@ -266,11 +266,18 @@ public class GameManager : MonoBehaviour
         {
             var camPlayer1Rect = camPlayers[0].rect;
             var camPlayer2Rect = camPlayers[1].rect;
+            var camPlayer1DescRect = camPlayers[2].rect;
+            var camPlayer2DescRect = camPlayers[3].rect;
 
             camPlayer1Rect.width = 1f;
             camPlayer2Rect.width = 0f;
+            camPlayer1DescRect.width = 1f;
+            camPlayer2DescRect.width = 0f;
             camPlayers[0].rect = camPlayer1Rect;
             camPlayers[1].rect = camPlayer2Rect;
+            camPlayers[2].rect = camPlayer1DescRect;
+            camPlayers[3].rect = camPlayer2DescRect;
+            
             Camiones[1].SetActive(false);
         }
 

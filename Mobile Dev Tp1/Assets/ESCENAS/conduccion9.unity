@@ -77382,6 +77382,8 @@ MonoBehaviour:
   camPlayers:
   - {fileID: 6358}
   - {fileID: 6360}
+  - {fileID: 6359}
+  - {fileID: 6355}
   tutoUI: {fileID: 1345076267}
   ObjsCalibracion1:
   - {fileID: 3073}
