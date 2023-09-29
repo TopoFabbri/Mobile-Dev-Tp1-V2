@@ -38,8 +38,6 @@ public class VirtualJoystick : MonoBehaviour
     {
         var rect = rec.rect;
         rect.position += (Vector2)rec.position;
-
-        Debug.DrawLine(rect.min, rect.max, Color.red);
         
         if (touch.phase == TouchPhase.Began && rect.Contains(touch.position))
             touchId = touch.fingerId;
