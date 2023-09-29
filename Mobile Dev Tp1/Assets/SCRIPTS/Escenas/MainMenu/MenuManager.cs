@@ -77,5 +77,10 @@ namespace Escenas.MainMenu
                     break;
             }
         }
+
+        public void LoadScene(string sceneName)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

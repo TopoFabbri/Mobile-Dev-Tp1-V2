@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Escenas.PuntosFinales
@@ -17,6 +18,11 @@ namespace Escenas.PuntosFinales
             
             if (DatosPartida.LadoGanadaor != DatosPartida.Lados.Izq)
                 winnerImg.sprite = p2Img;
+        }
+
+        public void LoadScene(string sceneName)
+        {
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
