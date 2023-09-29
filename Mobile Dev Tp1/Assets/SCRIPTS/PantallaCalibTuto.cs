@@ -4,11 +4,13 @@ using System.Collections;
 public class PantallaCalibTuto : MonoBehaviour 
 {
 	public Texture2D[] ImagenesDelTuto;
+	public Texture2D[] ImagenesDelTutoMob;
 	public float Intervalo = 1.2f;//tiempo de cada cuanto cambia de imagen
 	float TempoIntTuto = 0;
 	int EnCursoTuto = 0;
 	
 	public Texture2D[] ImagenesDeCalib;
+	public Texture2D[] ImagenesDeCalibMob;
 	int EnCursoCalib = 0;
 	float TempoIntCalib = 0;
 	
@@ -32,7 +34,7 @@ public class PantallaCalibTuto : MonoBehaviour
 				else
 					EnCursoCalib = 0;
 			}
-			GetComponent<Renderer>().material.mainTexture = ImagenesDeCalib[EnCursoCalib];
+			GetComponent<Renderer>().material.mainTexture = Application.isMobilePlatform ? ImagenesDeCalibMob[0] : ImagenesDeCalib[EnCursoCalib];
 			
 			break;
 			
@@ -47,7 +49,7 @@ public class PantallaCalibTuto : MonoBehaviour
 				else
 					EnCursoTuto = 0;
 			}
-			GetComponent<Renderer>().material.mainTexture = ImagenesDelTuto[EnCursoTuto];
+			GetComponent<Renderer>().material.mainTexture = Application.isMobilePlatform ? ImagenesDelTutoMob[EnCursoTuto] : ImagenesDelTuto[EnCursoTuto];
 			
 			break;
 			
