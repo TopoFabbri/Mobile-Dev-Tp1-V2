@@ -16,20 +16,20 @@ public class PalletMover : ManejoPallets {
     private void Update() {
         switch (miInput) {
             case MoveType.WASD:
-                if (!Tenencia() && Desde.Tenencia() && InputManager.Instance.GetAxis("Giro1") < 0)
+                if (!Tenencia() && Desde.Tenencia() && InputManager.Instance.GetAxis("Giro1") < .8f)
                     PrimerPaso();
-                if (Tenencia() && InputManager.Instance.GetAxis("Giro1") > 0)
+                if (Tenencia() && InputManager.Instance.GetAxis("Vertical1") > .8f)
                     SegundoPaso();
-                if (segundoCompleto && Tenencia() && InputManager.Instance.GetAxis("Giro1") > 0)
+                if (segundoCompleto && Tenencia() && InputManager.Instance.GetAxis("Giro1") > .8f)
                     TercerPaso();
                 break;
             
             case MoveType.Arrows:
-                if (!Tenencia() && Desde.Tenencia() && InputManager.Instance.GetAxis("Giro2") < 0)
+                if (!Tenencia() && Desde.Tenencia() && InputManager.Instance.GetAxis("Giro2") < .8f)
                     PrimerPaso();
-                if (Tenencia() && InputManager.Instance.GetAxis("Giro2") > 0)
+                if (Tenencia() && InputManager.Instance.GetAxis("Vertical2") > .8f)
                     SegundoPaso();
-                if (segundoCompleto && Tenencia() && InputManager.Instance.GetAxis("Giro2") > 0)
+                if (segundoCompleto && Tenencia() && InputManager.Instance.GetAxis("Giro2") > .8f)
                     TercerPaso();
                 break;
         }

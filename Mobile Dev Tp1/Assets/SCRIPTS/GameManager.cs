@@ -99,23 +99,17 @@ public class GameManager : MonoBehaviour
 
         //CIERRA LA APLICACION
         if (Input.GetKeyDown(KeyCode.Escape))
-        {
             Application.Quit();
-        }
 
         switch (EstAct)
         {
             case EstadoJuego.Calibrando:
 
                 if (InputManager.Instance.GetAxis("Vertical1") > 0)
-                {
                     Player1.Seleccionado = true;
-                }
 
                 if (InputManager.Instance.GetAxis("Vertical2") > 0)
-                {
                     Player2.Seleccionado = true;
-                }
 
                 CheckCalibracion();
                 break;
@@ -179,8 +173,6 @@ public class GameManager : MonoBehaviour
         }
 
         TiempoDeJuegoText.transform.parent.gameObject.SetActive(EstAct == EstadoJuego.Jugando && !ConteoRedresivo);
-        
-        InputManager.Instance.SetAxis("Start", Input.GetAxis("Horizontal"));
     }
 
     //----------------------------------------------------------//
