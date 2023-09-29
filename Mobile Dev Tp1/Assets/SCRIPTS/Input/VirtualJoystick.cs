@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 public class VirtualJoystick : MonoBehaviour
 {
     [SerializeField] protected GameObject handle;
@@ -12,7 +11,7 @@ public class VirtualJoystick : MonoBehaviour
     public float X => handle.transform.localPosition.normalized.x;
     public float Y => handle.transform.localPosition.normalized.y;
 
-    protected void Awake()
+    protected virtual void Awake()
     {
         if (!(Application.isMobilePlatform || Application.isEditor))
             Destroy(gameObject);

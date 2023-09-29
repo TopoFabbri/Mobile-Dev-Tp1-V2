@@ -273,6 +273,7 @@ public class GameManager : MonoBehaviour
             camPlayer2Rect.width = 0f;
             camPlayer1DescRect.width = 1f;
             camPlayer2DescRect.width = 0f;
+            
             camPlayers[0].rect = camPlayer1Rect;
             camPlayers[1].rect = camPlayer2Rect;
             camPlayers[2].rect = camPlayer1DescRect;
