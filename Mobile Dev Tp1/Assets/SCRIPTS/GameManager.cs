@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] Camiones;
     public Camera[] camPlayers;
-    public GameObject tutoUI;
 
     //listas de GO que activa y desactiva por sub-escena
     //escena de tutorial
@@ -47,8 +46,6 @@ public class GameManager : MonoBehaviour
 
     //la pista de carreras
     public GameObject[] ObjsCarrera;
-
-    private bool multiPlayer;
 
     //--------------------------------------------------------//
     private static GameManager instance;
@@ -206,7 +203,6 @@ public class GameManager : MonoBehaviour
 
         TiempoDeJuegoText.transform.parent.gameObject.SetActive(false);
         ConteoInicio.gameObject.SetActive(false);
-        tutoUI.SetActive(true);
     }
 
     void EmpezarCarrera()
@@ -260,9 +256,7 @@ public class GameManager : MonoBehaviour
     {
         EstAct = GameManager.EstadoJuego.Jugando;
 
-        tutoUI.SetActive(false);
-
-        if (!multiPlayer)
+        if (!GameSettings.MultiPlayer)
         {
             var camPlayer1Rect = camPlayers[0].rect;
             var camPlayer2Rect = camPlayers[1].rect;
@@ -352,10 +346,7 @@ public class GameManager : MonoBehaviour
 
     private void CheckCalibracion()
     {
-        if (Player1.FinTuto && InputManager.Instance.GetAxis("Start") > 0)
-        {
-            multiPlayer = Player2.FinTuto;
+        if (Player1.FinTuto && (!GameSettings.MultiPlayer || Player2.FinTuto))
             CambiarACarrera();
-        }
     }
 }
