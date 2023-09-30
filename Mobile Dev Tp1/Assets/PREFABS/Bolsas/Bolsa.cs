@@ -12,6 +12,7 @@ public class Bolsa : MonoBehaviour
 	bool Desapareciendo;
 	public GameObject Particulas;
 	public float TiempParts = 2.5f;
+	public Renderer renderer;
 
 	// Use this for initialization
 	void Start () 
@@ -28,7 +29,7 @@ public class Bolsa : MonoBehaviour
 			TiempParts -= Time.deltaTime;
 			if(TiempParts <= 0)
 			{
-				GetComponent<Renderer>().enabled = true;
+				renderer.enabled = true;
 				GetComponent<Collider>().enabled = true;
 			}
 		}
@@ -50,7 +51,7 @@ public class Bolsa : MonoBehaviour
 		Particulas.SetActive(true);
 		Desapareciendo = true;
 		
-		GetComponent<Renderer>().enabled = false;
+		renderer.enabled = false;
 		GetComponent<Collider>().enabled = false;
 	
 	}
