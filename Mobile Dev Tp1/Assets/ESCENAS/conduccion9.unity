@@ -17237,8 +17237,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6249}
+  - component: {fileID: 6251}
   m_Layer: 0
-  m_Name: Bolsas
+  m_Name: BagSpawns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21004,174 +21005,6 @@ Transform:
   m_Father: {fileID: 6220}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4642 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13134}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4643 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13085}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4644 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13135}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4645 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13136}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4646 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13137}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4647 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13138}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4648 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13139}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4649 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13140}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4650 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13087}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4651 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13084}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4652 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13141}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4653 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13086}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4654 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13142}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4655 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13143}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4656 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13144}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4657 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13145}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4658 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13146}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4659 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13147}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4660 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13148}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4661 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13083}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4662 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13149}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4663 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13150}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4664 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13151}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4665 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13112}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4666 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13152}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4667 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13153}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4668 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13154}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4669 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 13133}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4671 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 05543b6d41a1a064aa86d0ced423fe4c,
@@ -33733,34 +33566,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4661}
-  - {fileID: 4651}
-  - {fileID: 4643}
-  - {fileID: 4653}
-  - {fileID: 4650}
-  - {fileID: 4665}
-  - {fileID: 4669}
-  - {fileID: 4642}
-  - {fileID: 4644}
-  - {fileID: 4645}
-  - {fileID: 4646}
-  - {fileID: 4647}
-  - {fileID: 4648}
-  - {fileID: 4649}
-  - {fileID: 4652}
-  - {fileID: 4654}
-  - {fileID: 4655}
-  - {fileID: 4656}
-  - {fileID: 4657}
-  - {fileID: 4658}
-  - {fileID: 4659}
-  - {fileID: 4660}
-  - {fileID: 4662}
-  - {fileID: 4663}
-  - {fileID: 4664}
-  - {fileID: 4666}
-  - {fileID: 4667}
-  - {fileID: 4668}
+  - {fileID: 136878892}
+  - {fileID: 865223010}
+  - {fileID: 1565594955}
+  - {fileID: 1998970750}
+  - {fileID: 1211000310}
+  - {fileID: 427752036}
+  - {fileID: 1212957274}
+  - {fileID: 1561085723}
+  - {fileID: 275262773}
+  - {fileID: 1395677794}
+  - {fileID: 1372099514}
+  - {fileID: 1604473187}
+  - {fileID: 225037910}
+  - {fileID: 624228825}
+  - {fileID: 1267252611}
+  - {fileID: 2112221086}
+  - {fileID: 956448510}
+  - {fileID: 866893621}
+  - {fileID: 1194208934}
+  - {fileID: 844025254}
+  - {fileID: 822572169}
+  - {fileID: 1546979485}
+  - {fileID: 1423190058}
+  - {fileID: 241284473}
+  - {fileID: 983234747}
+  - {fileID: 1039573997}
+  - {fileID: 2062816127}
+  - {fileID: 157791493}
   m_Father: {fileID: 1269805226}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -33779,6 +33612,48 @@ Transform:
   m_Father: {fileID: 1471600240}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17379f9dccabba4aae90172306de77b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawns:
+  - {fileID: 136878892}
+  - {fileID: 865223010}
+  - {fileID: 1565594955}
+  - {fileID: 1998970750}
+  - {fileID: 1211000310}
+  - {fileID: 427752036}
+  - {fileID: 1212957274}
+  - {fileID: 1561085723}
+  - {fileID: 275262773}
+  - {fileID: 1395677794}
+  - {fileID: 1372099514}
+  - {fileID: 1604473187}
+  - {fileID: 225037910}
+  - {fileID: 624228825}
+  - {fileID: 1267252611}
+  - {fileID: 2112221086}
+  - {fileID: 956448510}
+  - {fileID: 866893621}
+  - {fileID: 1194208934}
+  - {fileID: 844025254}
+  - {fileID: 822572169}
+  - {fileID: 1546979485}
+  - {fileID: 1423190058}
+  - {fileID: 241284473}
+  - {fileID: 983234747}
+  - {fileID: 1039573997}
+  - {fileID: 2062816127}
+  - {fileID: 157791493}
+  prefab: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
 --- !u!4 &6257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4827866222774608, guid: b81b1a58a0f14c9439cbdd014e695f71,
@@ -77410,227 +77285,6 @@ MonoBehaviour:
   - {fileID: 3124}
   - {fileID: 3102}
   - {fileID: 213}
---- !u!1001 &13083
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -68.63269
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 367.50293
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13084
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -112.85092
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 698.54443
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13085
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -294.69492
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 900.08154
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13086
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -113.180466
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 572.0171
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13087
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -123.272675
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 714.6509
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
 --- !u!1001 &13088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78683,51 +78337,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25f8fb1ba2f6d894ba2db6cd8e55d725, type: 3}
---- !u!1001 &13112
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.440845
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.81416535
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 255.23535
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
 --- !u!1001 &13113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79844,1332 +79453,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7831594fd0d6c0741a4a131f1a15ca03, type: 3}
---- !u!1001 &13133
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.189499
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.81415963
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 190.12451
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.016949954
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.016949957
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70690364
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.70690364
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13134
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883637
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883621
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -285.1225
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 908.8032
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13135
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883635
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836203
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -268.95575
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 878.8091
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13136
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883634
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.88362
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -230.87883
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 844.56055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13137
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883633
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836193
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -241.85817
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 837.59766
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13138
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883632
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883619
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -218.29277
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 815.90674
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13139
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883631
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836184
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -196.6019
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 801.4458
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836303
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883618
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -150.27448
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 740.38965
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13141
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836274
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836164
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -120.43036
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 681.4907
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13142
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836255
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836155
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -121.609344
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 525.93896
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13143
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836246
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883615
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -112.24393
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 520.1323
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13144
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836236
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836145
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -125.73012
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 502.7124
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: maxEmission
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: minEmission
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13145
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836226
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883614
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -139.59093
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 483.98145
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13146
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836217
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836136
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -39.315277
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.8141632
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 320.56738
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13147
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8836207
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883613
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -121.28641
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 440.90088
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13148
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.88362
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836126
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -101.71443
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 410.2168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13149
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883618
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836117
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.76033
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 338.81787
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13150
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883617
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -20.304981
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.814168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 323.85742
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13151
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883616
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836107
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.28893
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.81416535
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 255.28564
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13152
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.883609
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.8836093
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.563557
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.8141639
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 222.96094
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13153
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883615
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836102
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.411636
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.8141639
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 223.01123
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0013442304
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0013442311
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071055
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: damping
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: force.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: force.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: force.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: rndForce.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: rndForce.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: rndForce.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Emit
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: rndVelocity.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: rndVelocity.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: rndVelocity.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: worldVelocity.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: worldVelocity.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: worldVelocity.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: tangentVelocity.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: tangentVelocity.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: tangentVelocity.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1500000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: emitterVelocityScale
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
---- !u!1001 &13154
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6249}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_Name
-      value: Bolsa Dinero
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_RootOrder
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.883611
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8836083
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.8836093
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.02295
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.81415963
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 189.50879
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.016949954
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.016949957
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70690364
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.70690364
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 514ac53862939534083df9fb1d9b6d0d, type: 3}
 --- !u!1001 &13155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85619,6 +83902,99 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 60763189}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &136878891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136878892}
+  m_Layer: 0
+  m_Name: BagSpawn 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &136878892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136878891}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -68.63269, y: -0.814168, z: 367.50293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &157791492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157791493}
+  m_Layer: 0
+  m_Name: BagSpawn 28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157791493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157791492}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.02295, y: -0.81415963, z: 189.50879}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &225037909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225037910}
+  m_Layer: 0
+  m_Name: BagSpawn 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225037910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225037909}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -196.6019, y: -0.814168, z: 801.4458}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &227525524 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5347541341094276324, guid: db6086bb6cb40af44868891788f049a9,
@@ -85631,6 +84007,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &241284472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 241284473}
+  m_Layer: 0
+  m_Name: BagSpawn 24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &241284473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241284472}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.304981, y: -0.814168, z: 323.85742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243081349
 GameObject:
   m_ObjectHideFlags: 0
@@ -85708,6 +84115,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243081349}
   m_CullTransparentMesh: 1
+--- !u!1 &275262772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 275262773}
+  m_Layer: 0
+  m_Name: BagSpawn 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &275262773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275262772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -268.95575, y: -0.814168, z: 878.8091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &282921451
 GameObject:
   m_ObjectHideFlags: 0
@@ -85793,6 +84231,37 @@ MonoBehaviour:
   miInput: 1
   Desde: {fileID: 13040}
   Hasta: {fileID: 13041}
+--- !u!1 &427752035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 427752036}
+  m_Layer: 0
+  m_Name: BagSpawn 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &427752036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427752035}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.440845, y: -0.81416535, z: 255.23535}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &589413398
 GameObject:
   m_ObjectHideFlags: 0
@@ -85951,6 +84420,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &624228824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 624228825}
+  m_Layer: 0
+  m_Name: BagSpawn 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624228825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624228824}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -150.27448, y: -0.814168, z: 740.38965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &629314373
 PrefabInstance:
@@ -86158,6 +84658,37 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: 43b47ea21177fe44fb41eeb12d4499ba, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b81b1a58a0f14c9439cbdd014e695f71, type: 3}
+--- !u!1 &822572168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 822572169}
+  m_Layer: 0
+  m_Name: BagSpawn 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &822572169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822572168}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -121.28641, y: -0.814168, z: 440.90088}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827433700
 GameObject:
   m_ObjectHideFlags: 0
@@ -86234,6 +84765,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827433700}
   m_CullTransparentMesh: 1
+--- !u!1 &844025253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 844025254}
+  m_Layer: 0
+  m_Name: BagSpawn 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &844025254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844025253}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -39.315277, y: -0.8141632, z: 320.56738}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &865223009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865223010}
+  m_Layer: 0
+  m_Name: BagSpawn 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865223010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865223009}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -112.85092, y: -0.814168, z: 698.54443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &865468521
 GameObject:
   m_ObjectHideFlags: 0
@@ -86338,6 +84931,130 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &866893620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 866893621}
+  m_Layer: 0
+  m_Name: BagSpawn 18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &866893621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866893620}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -125.73012, y: -0.814168, z: 502.7124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &956448509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956448510}
+  m_Layer: 0
+  m_Name: BagSpawn 17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956448510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956448509}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -112.24393, y: -0.814168, z: 520.1323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &983234746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983234747}
+  m_Layer: 0
+  m_Name: BagSpawn 25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &983234747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983234746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.28893, y: -0.81416535, z: 255.28564}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1039573996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039573997}
+  m_Layer: 0
+  m_Name: BagSpawn 26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1039573997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039573996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.563557, y: -0.8141639, z: 222.96094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041039464
 GameObject:
   m_ObjectHideFlags: 0
@@ -86428,6 +85145,99 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5347541341002542960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1194208933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1194208934}
+  m_Layer: 0
+  m_Name: BagSpawn 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1194208934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194208933}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -139.59093, y: -0.814168, z: 483.98145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1211000309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1211000310}
+  m_Layer: 0
+  m_Name: BagSpawn 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1211000310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211000309}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -123.272675, y: -0.814168, z: 714.6509}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1212957273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1212957274}
+  m_Layer: 0
+  m_Name: BagSpawn 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1212957274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212957273}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.189499, y: -0.81415963, z: 190.12451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1222576991
 GameObject:
   m_ObjectHideFlags: 0
@@ -86570,6 +85380,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1267252610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267252611}
+  m_Layer: 0
+  m_Name: BagSpawn 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1267252611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267252610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -120.43036, y: -0.814168, z: 681.4907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1269805225
 GameObject:
   m_ObjectHideFlags: 0
@@ -86657,6 +85498,99 @@ MonoBehaviour:
   miInput: 0
   Desde: {fileID: 13062}
   Hasta: {fileID: 13063}
+--- !u!1 &1372099513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1372099514}
+  m_Layer: 0
+  m_Name: BagSpawn 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1372099514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372099513}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -241.85817, y: -0.814168, z: 837.59766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1395677793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1395677794}
+  m_Layer: 0
+  m_Name: BagSpawn 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395677794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395677793}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -230.87883, y: -0.814168, z: 844.56055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1423190057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423190058}
+  m_Layer: 0
+  m_Name: BagSpawn 23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423190058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423190057}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.76033, y: -0.814168, z: 338.81787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425887806 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 42ccde1c0abcc4944b4fc7242368f31a,
@@ -86710,6 +85644,99 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 629314373}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1546979484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546979485}
+  m_Layer: 0
+  m_Name: BagSpawn 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1546979485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546979484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -101.71443, y: -0.814168, z: 410.2168}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1561085722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561085723}
+  m_Layer: 0
+  m_Name: BagSpawn 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1561085723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561085722}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -285.1225, y: -0.814168, z: 908.8032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1565594954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565594955}
+  m_Layer: 0
+  m_Name: BagSpawn 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565594955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565594954}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -294.69492, y: -0.814168, z: 900.08154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1568178463
 GameObject:
   m_ObjectHideFlags: 0
@@ -86758,6 +85785,37 @@ MonoBehaviour:
   miInput: 1
   Desde: {fileID: 13017}
   Hasta: {fileID: 13016}
+--- !u!1 &1604473186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604473187}
+  m_Layer: 0
+  m_Name: BagSpawn 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1604473187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604473186}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -218.29277, y: -0.814168, z: 815.90674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1643806369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5347541339907708172, guid: db6086bb6cb40af44868891788f049a9,
@@ -86800,6 +85858,99 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5347541341002542960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1998970749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998970750}
+  m_Layer: 0
+  m_Name: BagSpawn 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1998970750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998970749}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -113.180466, y: -0.814168, z: 572.0171}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2062816126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2062816127}
+  m_Layer: 0
+  m_Name: BagSpawn 27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2062816127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062816126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.411636, y: -0.8141639, z: 223.01123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2112221085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112221086}
+  m_Layer: 0
+  m_Name: BagSpawn 16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2112221086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112221085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -121.609344, y: -0.814168, z: 525.93896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6249}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2121975532
 GameObject:
   m_ObjectHideFlags: 0

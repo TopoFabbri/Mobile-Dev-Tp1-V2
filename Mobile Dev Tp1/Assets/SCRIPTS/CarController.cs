@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarController : MonoBehaviour {
-
+public class CarController : MonoBehaviour
+{
     public List<WheelCollider> throttleWheels = new List<WheelCollider>();
     public List<WheelCollider> steeringWheels = new List<WheelCollider>();
     public float throttleCoefficient = 20000f;
@@ -11,22 +12,38 @@ public class CarController : MonoBehaviour {
     float giro = 0f;
     float acel = 1f;
 
-	
-	// Update is called once per frame
-	void FixedUpdate () {
-        foreach (var wheel in throttleWheels) {
+    private void Awake()
+    {
+        if (GameSettings.Difficulty == GameSettings.Diff.Easy)
+        {
+            throttleCoefficient = 50000f;
+            maxTurn = 40f;
+        }
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        foreach (var wheel in throttleWheels)
+        {
             wheel.motorTorque = throttleCoefficient * Ti.GetFDT() * acel;
         }
-        foreach (var wheel in steeringWheels) {
+
+        foreach (var wheel in steeringWheels)
+        {
             wheel.steerAngle = maxTurn * giro;
         }
+
         giro = 0f;
     }
 
-    public void SetGiro(float giro) {
+    public void SetGiro(float giro)
+    {
         this.giro = giro;
     }
-    public void SetAcel(float val) {
+
+    public void SetAcel(float val)
+    {
         acel = val;
     }
 }

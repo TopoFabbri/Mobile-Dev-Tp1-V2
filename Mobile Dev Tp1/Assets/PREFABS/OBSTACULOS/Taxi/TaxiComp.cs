@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using System.Collections;
+using Random = UnityEngine.Random;
 
 /// <summary>
 /// basicamente lo que hace es que viaja en linea recta y ocacionalmente gira para un cosatado
@@ -38,6 +40,12 @@ public class TaxiComp : MonoBehaviour
 	enum Lado{Der, Izq}
 	
 	//-----------------------------------------------------------------//
+
+	private void Awake()
+	{
+		if (GameSettings.Difficulty != GameSettings.Diff.Hard)
+			Destroy(gameObject);
+	}
 
 	// Use this for initialization
 	void Start () 
