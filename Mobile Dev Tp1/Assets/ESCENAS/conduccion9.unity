@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6019971, g: 0.60289484, b: 0.6022064, a: 1}
+  m_IndirectSpecularColor: {r: 0.6015423, g: 0.6018507, b: 0.6013663, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!196 &3
 NavMeshSettings:
@@ -17208,6 +17208,7 @@ GameObject:
   - component: {fileID: 6246}
   - component: {fileID: 13082}
   - component: {fileID: 12392}
+  - component: {fileID: 13083}
   m_Layer: 0
   m_Name: GameMgr
   m_TagString: Untagged
@@ -77070,6 +77071,20 @@ MonoBehaviour:
   - {fileID: 3124}
   - {fileID: 3102}
   - {fileID: 213}
+--- !u!114 &13083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7848159bd50f747ab8e16ada5a84ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joy1: {fileID: 2121975534}
+  joy2: {fileID: 589413400}
 --- !u!1001 &13088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81612,7 +81627,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 589413398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2831eee31c6f4aa44a83428498631e67, type: 3}
+  m_Script: {fileID: 11500000, guid: 146e0ae3f9fafda4c86617a1c0aaadd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   handle: {fileID: 39720199}
@@ -84756,7 +84771,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2121975532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebe6a7d7b28fd3d4f869038a4232ed55, type: 3}
+  m_Script: {fileID: 11500000, guid: 146e0ae3f9fafda4c86617a1c0aaadd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   handle: {fileID: 827433700}

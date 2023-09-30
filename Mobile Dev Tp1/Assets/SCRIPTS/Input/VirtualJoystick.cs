@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VirtualJoystick : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class VirtualJoystick : MonoBehaviour
     protected virtual void Awake()
     {
         if (!(Application.isMobilePlatform || Application.isEditor))
-            Destroy(gameObject);
+            handle.GetComponentInChildren<Image>().enabled = false;
     }
 
     protected virtual void Update()

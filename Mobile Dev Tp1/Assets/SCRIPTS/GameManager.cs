@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     //la pista de carreras
     public GameObject[] ObjsCarrera;
-    
+
     //--------------------------------------------------------//
     private static GameManager instance;
 
@@ -76,31 +76,31 @@ public class GameManager : MonoBehaviour
         else
             instance = this;
 
-        if (!GameSettings.MultiPlayer)
-        {
-            var camPlayer1Rect = camPlayers[0].rect;
-            var camPlayer2Rect = camPlayers[1].rect;
-            var camPlayer1DescRect = camPlayers[2].rect;
-            var camPlayer2DescRect = camPlayers[3].rect;
-            var camPlayer1TutoRect = camPlayers[4].rect;
-            var camPlayer2TutoRect = camPlayers[5].rect;
+        if (GameSettings.MultiPlayer)
+            return;
+        
+        Rect camPlayer1Rect = camPlayers[0].rect;
+        Rect camPlayer2Rect = camPlayers[1].rect;
+        Rect camPlayer1DescRect = camPlayers[2].rect;
+        Rect camPlayer2DescRect = camPlayers[3].rect;
+        Rect camPlayer1TutoRect = camPlayers[4].rect;
+        Rect camPlayer2TutoRect = camPlayers[5].rect;
 
-            camPlayer1Rect.width = 1f;
-            camPlayer2Rect.width = 0f;
-            camPlayer1DescRect.width = 1f;
-            camPlayer2DescRect.width = 0f;
-            camPlayer1TutoRect.width = 1f;
-            camPlayer2TutoRect.width = 0f;
+        camPlayer1Rect.width = 1f;
+        camPlayer2Rect.width = 0f;
+        camPlayer1DescRect.width = 1f;
+        camPlayer2DescRect.width = 0f;
+        camPlayer1TutoRect.width = 1f;
+        camPlayer2TutoRect.width = 0f;
 
-            camPlayers[0].rect = camPlayer1Rect;
-            camPlayers[1].rect = camPlayer2Rect;
-            camPlayers[2].rect = camPlayer1DescRect;
-            camPlayers[3].rect = camPlayer2DescRect;
-            camPlayers[4].rect = camPlayer1TutoRect;
-            camPlayers[5].rect = camPlayer2TutoRect;
+        camPlayers[0].rect = camPlayer1Rect;
+        camPlayers[1].rect = camPlayer2Rect;
+        camPlayers[2].rect = camPlayer1DescRect;
+        camPlayers[3].rect = camPlayer2DescRect;
+        camPlayers[4].rect = camPlayer1TutoRect;
+        camPlayers[5].rect = camPlayer2TutoRect;
 
-            Camiones[1].SetActive(false);
-        }
+        Camiones[1].SetActive(false);
     }
 
     private void OnDestroy()
@@ -117,8 +117,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        KeyBoardInput.UpdateInput();
-        
         //REINICIAR
         if (Input.GetKey(KeyCode.Alpha0))
         {
