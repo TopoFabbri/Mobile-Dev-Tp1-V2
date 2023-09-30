@@ -39,12 +39,6 @@ public class TaxiComp : MonoBehaviour
 	
 	//-----------------------------------------------------------------//
 
-	private void Awake()
-	{
-		if (GameSettings.Difficulty != GameSettings.Diff.Hard)
-			Destroy(gameObject);
-	}
-
 	// Use this for initialization
 	void Start () 
 	{

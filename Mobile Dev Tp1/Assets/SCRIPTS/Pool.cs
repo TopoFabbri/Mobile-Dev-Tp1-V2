@@ -18,19 +18,20 @@ public class Pool : MonoBehaviour
     protected List<Transform> spawns;
 
     [SerializeField] protected Object[] prefabs;
-    [SerializeField] private bool repeatSpawn;
-    [SerializeField] private bool keepSpawning;
-    [SerializeField] private float interval = 1f;
+    [SerializeField] protected bool repeatSpawn;
+    [SerializeField] protected bool keepSpawning;
+    [SerializeField] protected float interval = 1f;
+    [SerializeField] protected Vector3 maxRotation = Vector3.zero;
 
     protected List<Object> pool = new();
 
-    private void Awake()
+    protected virtual void Awake()
     {
         for (int i = 0; i < prefabs.Length; i++)
             prefabs[i].typeId = i;
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         do
         {
@@ -42,7 +43,7 @@ public class Pool : MonoBehaviour
     /// Spawn object, wait for interval, repeat if should
     /// </summary>
     /// <returns></returns>
-    private IEnumerator SpawnLoop()
+    protected virtual IEnumerator SpawnLoop()
     {
         SpawnRandomObject();
         yield return new WaitForSeconds(interval);
@@ -78,7 +79,7 @@ public class Pool : MonoBehaviour
 
                 if (!repeatSpawn)
                 {
-                    GameObject spawn= spawns[randomSpawn].gameObject;
+                    GameObject spawn = spawns[randomSpawn].gameObject;
                     spawns.Remove(spawns[randomSpawn]);
                     Destroy(spawn);
                 }
@@ -93,7 +94,7 @@ public class Pool : MonoBehaviour
     /// </summary>
     /// <param name="obj">Object to spawn</param>
     /// <param name="pos">Position to spawn</param>
-    private void Instantiate(Object obj, Vector3 pos)
+    protected virtual void Instantiate(Object obj, Vector3 pos)
     {
         GameObject newObject = FindUnusedObject(obj.typeId);
 
@@ -101,6 +102,8 @@ public class Pool : MonoBehaviour
         {
             obj.prefab = Instantiate(obj.prefab, pos, Quaternion.identity);
             obj.prefab.transform.parent = transform;
+            obj.prefab.transform.rotation = Quaternion.Euler(Random.Range(0f, maxRotation.x),
+                Random.Range(0f, maxRotation.y), Random.Range(0f, maxRotation.z));
             pool.Add(obj);
         }
     }
@@ -110,7 +113,7 @@ public class Pool : MonoBehaviour
     /// </summary>
     /// <param name="id">type id of the object to find</param>
     /// <returns>Found game object (null if not found)</returns>
-    private GameObject FindUnusedObject(int id)
+    protected virtual GameObject FindUnusedObject(int id)
     {
         foreach (Object obj in pool)
         {
