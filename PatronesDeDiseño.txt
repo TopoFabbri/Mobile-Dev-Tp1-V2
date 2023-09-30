@@ -1,0 +1,9 @@
+Singleton:
+Le agregue el patrón singleton al game manager para que solo haya una instancia viva, le agregue un getter y un chequeo para que si por algún error aparece otra instancia instantáneamente se destruya. También lo programe para que si todavía no hay una instancia se cree un objeto y se le agregue el componente GameManager.
+También use el patrón singleton para la clase input manager para poder acceder desde donde quiera sin tener una referencia directa a la instancia y que todas las clases seteen y geteen el input del juego en el mismo lugar.
+
+Pool:
+Use el patrón para generar instancias de objetos sin instanciar 2 veces el mismo sino obtenerlo de una reserva de objetos del mismo tipo ya instanciados anteriormente.
+
+Factory:
+El patrón factory lo integré en el pool haciendo que la pool funcione con distintos tipos de objetos y poder randomizar su aparición, se pueden agregar varios prefabs a la pool y va a instanciar un objeto obtenido de manera random entre esa lista de objetos. A esta le agregue algunas features extra como que cada uno de los objetos que se instancia va a tener un peso que va a significar que tiene más o menos posibilidades de aparición, cuanto más grande el número mayor la posibilidad de que sea este el que aparezca en la próxima iteración, puse la posibilidad de elegir si el spawn tiene que ser infinito o si tiene que instanciar 1 objeto en cada spawn y terminar, el patrón funciona poniendo objetos que representen el spawn, estos se agregan como referencia al componente de pool y si los spawns no son infinitos, borra el spawner una vez que ya cumplio su funcion, ademas da la opción de definir el tiempo de intervalo entre spawns y permite seleccionar un ángulo máximo de rotación en cada eje para randomizar la rotación inicial del objeto y así agregar aún más variedades al spawn.
