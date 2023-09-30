@@ -133,10 +133,10 @@ public class GameManager : MonoBehaviour
         {
             case EstadoJuego.Calibrando:
 
-                if (InputManager.Instance.GetAxis("Vertical1") > 0)
+                if (InputManager.Instance.GetAxis("Vertical1") != 0)
                     Player1.Seleccionado = true;
 
-                if (InputManager.Instance.GetAxis("Vertical2") > 0)
+                if (InputManager.Instance.GetAxis("Vertical2") != 0)
                     Player2.Seleccionado = true;
 
                 CheckCalibracion();
