@@ -7,7 +7,7 @@ public class GameSettings
         Hard
     }
 
-    private Diff difficulty = Diff.Hard         ;
+    private Diff difficulty = Diff.Medium         ;
     private bool multiPlayer = true;
     
     private static GameSettings instance;
