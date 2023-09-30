@@ -61,6 +61,7 @@ public class Pool : MonoBehaviour
 
         for (int i = 0; i < prefabs.Length; i++)
         {
+            prefabs[i].prefab.SetActive(true);
             totalOdds += prefabs[i].odds;
             odds[i] = totalOdds;
         }
@@ -76,7 +77,12 @@ public class Pool : MonoBehaviour
                 Instantiate(prefabs[i], spawns[randomSpawn].position);
 
                 if (!repeatSpawn)
+                {
+                    GameObject spawn= spawns[randomSpawn].gameObject;
                     spawns.Remove(spawns[randomSpawn]);
+                    Destroy(spawn);
+                }
+
                 return;
             }
         }
@@ -94,6 +100,7 @@ public class Pool : MonoBehaviour
         if (!newObject)
         {
             obj.prefab = Instantiate(obj.prefab, pos, Quaternion.identity);
+            obj.prefab.transform.parent = transform;
             pool.Add(obj);
         }
     }
